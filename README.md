@@ -1,2 +1,2 @@
-# diagnostic_form
+# Diagnostic Form
 Diagnostic form self user registration
