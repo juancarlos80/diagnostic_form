@@ -1,0 +1,78 @@
+
+body {
+    padding-top: 20px;
+    color:#006a95;
+}
+
+header {    
+    margin-top: 20px;  
+    padding-bottom: 50px;  
+}
+
+.cuerpo {
+    max-width: 600px;
+}
+
+footer{
+    margin-top: 20px;
+    color: #a7a7a7;
+}
+
+.logo {    
+    width: 100px;
+    margin: 0 auto;
+}
+
+.title_label{    
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #049dd9;
+    border-color: #049dd9;
+}
+
+#datepicker {
+    width: 80%;    
+}
+
+.ui-datepicker-trigger{
+    margin-top: -10px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.titulo{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.title_label{
+    color: #049dd9;
+}
+
+@media only screen and (max-width: 375px) {
+    .logo {            
+        width: 100px;        
+    }
+
+    .titulo{
+        font-size: 1.0em;
+    }
+
+    header{
+        margin-top: 5px;
+    }
+
+    .title_label{
+        font-weight: lighter;
+    }
+}

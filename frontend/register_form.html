@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.min.css">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.css" rel="stylesheet">    
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Popperjs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    
+    
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/javascript.js"></script>
+
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            init();
+        });
+    </script>
+    <div class="container">
+        
+        <header>            
+            <img src="img/logo.jpeg" alt="Logo" class="d-flex justify-content-center logo">                    
+            <div class="d-flex justify-content-center title_label">
+                Laboratorio de Análisis Clínicos
+            </div>                                    
+        </header>
+
+        <div class="container cuerpo">
+            
+            <div class="titulo">Pre registro de usuarios</div>
+            <br>
+            <form>
+                <div class="mb-3">
+                    <label for="names" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="names">
+                </div>
+                <div class="mb-3">
+                    <label for="last_names" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="last_names">
+                </div>
+                <div class="mb-3">
+                    <label for="ci" class="form-label">CI</label>
+                    <input type="number" class="form-control" id="ci">
+                </div>
+                <div class="mb-3">
+                    <label for="gender" class="form-label">Género</label>
+                    <select id="gender" class="form-select" aria-label="Seleccione una opción">
+                        <option selected>Seleccione una opción</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>                        
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <div for="datepicker" class="form-label">Fecha de nacimiento:</div>
+                    <input type="text" class="form-control left" id="datepicker" >
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo:</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <div class="form-text">Nunca compartiremos su correo con terceros.</div>
+                </div>                                
+
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+        </div>
+        <footer class="d-flex justify-content-center">
+            <p>&copy; 2020 - Cochabamba, Bolivia</p>
+        </footer>
+    </div>
+</body>
+</html>
